@@ -10,7 +10,7 @@ public class User{
 
     @Id // đánh dấu là primary key của bảng
     @GeneratedValue(strategy=GenerationType.IDENTITY) //thiết lập auto Increment (tự động tăng khi tạo mới 1 2 3)
-    private int id;
+    private Long id;
 
     //unique = true đảm bảo không có người dùng nào bị trùng user name
     //nullable = false không được để trống
